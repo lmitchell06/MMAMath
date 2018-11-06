@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fighter_detail_container"
+    tools:context=".view.activity.FighterDetailActivity">
+
+    <ImageView
+        android:id="@+id/image_view_fighter_detail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/text_view_striking_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/striking_title"/>
+
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_slpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Fighter Name"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_strk_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_sapm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_strk_def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="170 lbs."/>
+
+    <TextView
+        android:id="@+id/text_view_grappling_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/grappling_title"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_td_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="70&quot;"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_td_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Orthodox"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_td_def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Jan 15, 2000"/>
+
+    <TextView
+        android:id="@+id/text_view_fighter_detail_sub_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Jan 15, 2000"/>
+
+    <Button
+        android:id="@+id/fighter_detail_activity_legend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="20dp"
+        android:text="@string/legend_btn" />
+
+    <Button
+        android:id="@+id/fighter_activity_flip_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/hand_icon_flip_back"
+        android:padding="20dp"
+        android:src="@drawable/hand_icon_flip_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

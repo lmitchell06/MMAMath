@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/fighter_slpm" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="10dp"
+            android:text="@string/fighter_slpm_detail" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_strk_acc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_strk_acc_detail" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_sapm" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fighter_sapm_detail"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_strk_def" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:text="@string/fighter_strk_def_detail" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_td_avg" />
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_td_avg_detail" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_td_acc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fighter_td_acc_detail"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_td_def" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fighter_td_def_detail"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/fighter_sub_avg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fighter_sub_avg_details"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/legend_return_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:elevation="6dp"
+            android:backgroundTint="@color/colorSecondary"
+            android:src="@drawable/back_arrow"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

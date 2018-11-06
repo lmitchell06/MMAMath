@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_weight_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text_view"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/champ_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/first_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/second_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/third_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fourth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fifth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sixth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/seventh_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/eighth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ninth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tenth_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="">
+        </TextView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

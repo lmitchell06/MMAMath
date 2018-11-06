@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">MMA MATH</string>
+    <string name="division_title">DIVISION</string>
+    <string name="mma_select_org">SELECT AN ORGANIZATION</string>
+    <string name="mma_select_division">SELECT A DIVISION</string>
+    <string name="mma_rankings_title">TOP 10 RANKINGS</string>
+    <string name="view_rankings">VIEW RANKINGS</string>
+    <string name="org_not_available">This organization is not available. Please view UFC rankings.</string>
+    <string name="champ">CHAMP </string>
+    <string name="fighter_rank">#</string>
+    <string name="fighter_profile">FIGHTER PROFILE</string>
+    <string name="string_placeholder">: &#160;</string>
+    <string name="json_name">name</string>
+    <string name="fighter_nickname">Nickname: </string>
+    <string name="fighter_record">Record: </string>
+    <string name="fighter_height">Height: </string>
+    <string name="fighter_weight">Weight: </string>
+    <string name="fighter_reach">Reach: </string>
+    <string name="fighter_stance">Stance: </string>
+    <string name="fighter_slpm">SLpM</string>
+    <string name="fighter_slpm_detail">Significant Strikes Landed per Minute</string>
+    <string name="fighter_strk_acc">Str. Acc.</string>
+    <string name="fighter_strk_acc_detail">Significant Striking Accuracy</string>
+    <string name="fighter_sapm">SApM</string>
+    <string name="fighter_sapm_detail">Significant Strikes Absorbed per Minute</string>
+    <string name="fighter_strk_def">Str. Def.</string>
+    <string name="fighter_strk_def_detail">Significant Strike Defence (the % of opponents strikes that did not land)</string>
+    <string name="fighter_td_avg">TD Avg</string>
+    <string name="fighter_td_avg_detail">Average Takedowns Landed per 15 minutes</string>
+    <string name="fighter_td_acc">TD Acc.</string>
+    <string name="fighter_td_acc_detail">Takedown Accuracy</string>
+    <string name="fighter_td_def">TD Def.</string>
+    <string name="fighter_td_def_detail">Takedown Defense (the % of opponents TD attempts that did not land)</string>
+    <string name="fighter_sub_avg">Sub. Avg.</string>
+    <string name="fighter_sub_avg_details">Average Submissions Attempted per 15 minutes</string>
+    <string name="striking_title">STRIKING</string>
+    <string name="grappling_title">GRAPPLING</string>
+    <string name="rank_url">https://www.parsehub.com/api/v2/projects/twahUusLML3p/last_ready_run/data?api_key=tfmAP_rQ6w0d</string>
+    <string name="flip_button">FLIP</string>
+    <string name="return_btn">RETURN TO FIGHTER PROFILE</string>
+    <string name="legend_btn">LEGEND</string>
+    <string name="inches">\"</string>
+    <string name="pounds">lbs</string>
+    <string name="percent">%"</string>
+    <string-array name="mma_org_array">
+        <item>UFC</item>
+        <item>BELLATOR</item>
+        <item>WSOF</item>
+    </string-array>
+    <string-array name="mma_division_array">
+        <item>FLYWEIGHT</item>
+        <item>BANTAMWEIGHT</item>
+        <item>FEATHERWEIGHT</item>
+        <item>LIGHTWEIGHT</item>
+        <item>WELTERWEIGHT</item>
+        <item>MIDDLEWEIGHT</item>
+        <item>LIGHT HEAVYWEIGHT</item>
+        <item>HEAVYWEIGHT</item>
+    </string-array>
+
+
+    <string name="title_activity_legend">LegendActivity</string>
+</resources>
